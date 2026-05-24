@@ -215,6 +215,5 @@ The runbook (`runbook.md`) captures the playbook for handling these and other sc
 
 **Yaqeen Alasouli** — Amman, Jordan  
 Electronics Engineering graduate, Yarmouk University (2025).  
-Looking for Support / Implementation Engineering roles.
 
 📧 [samouryageen@gmail.com](mailto:samouryageen@gmail.com)
