@@ -1,0 +1,7 @@
+target/
+apache-tomcat-*/
+*.dmp
+*.log
+.idea/
+.vscode/
+.DS_STORE

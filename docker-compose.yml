@@ -1,0 +1,22 @@
+services:
+  oracle:
+    image: gvenzl/oracle-xe:21-slim
+    container_name: oraclexe
+    environment:
+      - ORACLE_PASSWORD=Oracle123
+    ports:
+      - "1521:1521"
+    volumes:
+      - oracle-data:/opt/oracle/oradata
+
+  app:
+    build: .
+    image: hello-web:1.0
+    container_name: hello-app
+    ports:
+      - "8080:8080"
+    depends_on:
+      - oracle
+
+volumes:
+  oracle-data:
